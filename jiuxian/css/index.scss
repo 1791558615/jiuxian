@@ -1,0 +1,502 @@
+$main: 1200px;
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  width: 100%;
+  background-color: #fff;
+}
+body {
+  width: 100%;
+}
+.header {
+  width: 100%;
+  font-size: 12px;
+  color: #c0c0c0;
+  margin: 0;
+  .header-top {
+    background: #f2f2f2;
+    .header-row {
+      min-width: $main;
+      height: 26px;
+      padding-top: 5px;
+      .header-lg9 {
+        p {
+          display: inline-block;
+          span {
+            color: #d43434;
+          }
+        }
+      }
+      .select {
+        width: 74px;
+        padding: 0 10px 0;
+        padding-top: 0;
+        float: left;
+        text-align: center;
+        &:hover .option {
+          display: block;
+          background: #fff;
+        }
+        .option {
+          display: flex;
+          position: absolute;
+          width: 80px;
+          flex-direction: column;
+          height: 80px;
+          background: #fff;
+          line-height: 20px;
+          display: none;
+        }
+      }
+      .cart {
+        display: inline-block;
+        float: left;
+        a {
+          margin-left: 10px;
+          color: #d43434;
+        }
+      }
+      .box {
+        float: left;
+      }
+      a {
+        color: #c0c0c0;
+        cursor: pointer;
+        font-size: 12px;
+        margin-left: 10px;
+        &:hover {
+          color: #d43434;
+          text-decoration: underline;
+        }
+      }
+      i {
+        font-size: 12px;
+      }
+    }
+  }
+  .search {
+    width: $main;
+    height: 125px;
+    margin: 0 auto;
+    img {
+      margin-right: 10px;
+      float: left;
+      margin-top: 30px;
+    }
+    .search-txt {
+      width: 540px;
+      height: 60px;
+      float: left;
+      margin: 32px 0 0 20px;
+      .searchHome {
+        border: 2px solid #cc0000;
+        width: 540px;
+        height: 37px;
+        background-color: #cc0000;
+        float: left;
+        input {
+          width: 450px;
+          height: 32px;
+        }
+        .search-btn {
+          width: 80px;
+          height: 32px;
+          text-align: center;
+          background: #cc0000;
+        }
+      }
+      p {
+        a {
+          margin: 5px;
+        }
+      }
+    }
+    .headerProtect {
+      width: 300px;
+      height: 64px;
+      float: right;
+      margin-top: 33px;
+      @for $i from 1 through 3 {
+        $arr: (($i - 1) * -47) + px;
+        a:nth-child(#{$i}) {
+          display: inline-block;
+          width: 45px;
+          height: 43px;
+          background: url(../images/download.png) no-repeat;
+          background-position: $arr -22px;
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+  .bottom {
+    float: left;
+    width: 100%;
+    background-color: #990000;
+    .nav-ul {
+      margin: 0 auto;
+      width: $main;
+      height: 34px;
+      background-color: #990000;
+      position: relative;
+      .clearfix {
+        position: absolute;
+        width: 190px;
+        height: 470px;
+        top: 34px;
+        left: 20px;
+        background-color: #fff;
+        dd {
+          width: 190px;
+          height: 73px;
+          position: relative;
+          h3 {
+            color: #333333;
+            height: 32px;
+            width: 163px;
+            font-size: 14px;
+            line-height: 32px;
+            font-weight: 100;
+          }
+          ul {
+            margin: 0 auto;
+            li {
+              margin: 0 auto;
+              float: left;
+              a {
+                margin: 0 3px;
+                padding: 0 4px;
+                font-size: 12px;
+                width: 36px;
+                height: 24px;
+                line-height: 24px;
+                white-space: normal;
+                cursor: pointer;
+                &:hover {
+                  background-color: #fff;
+                }
+              }
+            }
+          }
+        }
+        dd a {
+          color: #999999;
+        }
+      }
+      .secondary {
+        display: none;
+        width: 615px;
+        height: 470px;
+        position: absolute;
+        background-color: #fff;
+        left: 190px;
+        float: left;
+        z-index: 99;
+        ul {
+          background-color: #fff;
+          li {
+            overflow: hidden;
+            color: #333333;
+            h4 {
+              background-color: #f1f1f1;
+              width: 60px;
+              float: left;
+              padding: 10px 10px 10px 20px;
+              line-height: 22px;
+              text-align: right;
+              border-top: 1px solid #999;
+              font-weight: 100;
+              font-size: 12px;
+            }
+            p {
+              float: left;
+              width: 495px;
+              background-color: #fff;
+              margin: 0 0 0 -1px;
+              line-height: 22px;
+              max-height: 176px;
+              overflow: hidden;
+              a {
+                color: #666666;
+                padding: 0 8px;
+                font-size: 12px;
+                &:hover {
+                  background-color: #fff;
+                }
+              }
+            }
+          }
+        }
+      }
+      .layui-nav-bar {
+        display: none;
+      }
+      li {
+        line-height: 34px;
+        h2 {
+          width: 190px;
+          text-align: center;
+          background-color: #ce171f;
+        }
+        a {
+          padding: 0 22px;
+          color: #fff;
+          &:hover {
+            background-color: #ce171f;
+            border-bottom: none;
+          }
+        }
+      }
+    }
+  }
+}
+.swipt {
+  position: relative;
+  float: left;
+  z-index: -999;
+  .img div {
+    position: relative;
+    margin: 0 auto;
+    img {
+      position: absolute;
+      left: -305px;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+  }
+  .liqueur {
+    position: absolute;
+    width: 190px;
+    height: 470px;
+    top: 0;
+    right: 6px;
+  }
+}
+.crazySale {
+  float: left;
+  padding-left: 50px;
+  .indexTabBox {
+    background-color: #fff;
+    width: 1200px;
+    min-height: 500px;
+    ul {
+      background-color: #f9f9f9;
+      li {
+        width: 183px;
+        color: #666;
+        border: 1px solid #ececec;
+      }
+      .thisli {
+        background-color: #fff;
+      }
+    }
+    .box {
+      .ubox {
+        .indexTabCon {
+          display: block;
+          li {
+            border: none;
+            width: 182px;
+            float: left;
+            margin-top: 20px;
+            img {
+              cursor: pointer;
+            }
+            p {
+              text-align: center;
+              font-size: 12px;
+              height: 18px;
+            }
+            span {
+              color: #cd0100;
+              line-height: 18px;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.footer {
+  margin: 0 auto;
+  width: 100%;
+  .footerTopBox {
+    width: 100%;
+    float: left;
+    background: #333333;
+    .footerTop {
+      color: #fff;
+      display: block;
+      width: 1200px;
+      margin: 0 auto;
+      height: 84px;
+      border-bottom: 1px solid red;
+      .footerContact {
+        float: left;
+        height: 40px;
+        line-height: 40px;
+        padding: 22px 0;
+        b {
+          font-size: 24px;
+          color: #c00;
+          margin-right: 25px;
+        }
+      }
+      .footerTopRight {
+        float: right;
+        height: 32px;
+        padding: 26px 0;
+        display: block;
+        .ftRight-tit {
+          float: left;
+          line-height: 32px;
+          margin-right: 10px;
+          font-size: 12px;
+        }
+        .ftRight-form {
+          float: left;
+          width: 240px;
+          height: 30px;
+          border: 1px solid #494949;
+          input {
+            width: 190px;
+            height: 30px;
+            line-height: 30px;
+            padding: 0 6px;
+            background: 0;
+            border: 0;
+            float: left;
+            color: #fff;
+            outline: 0;
+          }
+        }
+      }
+    }
+    .footerServices {
+      width: 1200px;
+      margin: 0 auto;
+      padding: 30px 0 60px;
+      height: 95px;
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        float: left;
+        li {
+          float: left;
+          width: 158px;
+          display: inline;
+          margin-right: 15px;
+          color: #ccc;
+          h3 {
+            line-height: 26px;
+            margin: 5px 0;
+          }
+          p {
+            a {
+              color: #ccc;
+              line-height: 26px;
+            }
+          }
+        }
+        clearfix::after {
+          clear: both;
+          display: block;
+          content: '...';
+          visibility: hidden;
+          height: 0;
+          font-size: 0;
+        }
+        .jxMicroblogging {
+          float: right;
+          width: 130px;
+          a {
+            color: #ccc;
+            line-height: 28px;
+            padding: 5px 0 13px;
+          }
+        }
+      }
+    }
+  }
+  .footerBotBox {
+    padding: 20px 0 40px;
+    float: left;
+    width: 100%;
+    .footerBot {
+      width: 1200px;
+      height: 200px;
+      margin: 0 auto;
+      .footerBotLeft {
+        float: left;
+        width: 760px;
+        overflow: hidden;
+        .footerInfo {
+          height: 16px;
+          padding: 4px 0;
+          overflow: hidden;
+          position: relative;
+          left: -8px;
+          margin-left: 0;
+          a {
+            display: inline-table;
+            height: 16px;
+            line-height: 16px;
+            padding: 0 8px;
+            overflow: hidden;
+            position: relative;
+            color: #666;
+            font-size: 12px;
+            i {
+              width: 1px;
+              height: 12px;
+              background: #999;
+              font-size: 0;
+              position: absolute;
+              left: 0;
+              top: 2px;
+              overflow: hidden;
+              display: block;
+            }
+          }
+        }
+        p {
+          line-height: 20px;
+          text-align: left;
+          font-size: 12px;
+          color: #666;
+        }
+        .friendLink {
+          padding: 17px 0 3px 0;
+          a {
+            color: #999;
+            &:hover {
+              color: #cc0001;
+              text-decoration: underline;
+            }
+          }
+          span {
+            a {
+              color: #999;
+            }
+          }
+        }
+      }
+      .footerBotCode {
+        width: 240px;
+        float: left;
+        text-align: center;
+        padding-top: 20px;
+        .jxPho-code {
+          float: left;
+          width: 80px;
+          display: inline;
+          margin-left: 40px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../css/login.css" />
+    <link
+      rel="stylesheet"
+      media="all"
+      href="http://at.alicdn.com/t/font_1989157_zlpyja9ck5s.css"
+    />
+  </head>
+  <body>
+    <div class="top">
+      <img src="../images/left.jpg" />
+      <img src="../images/slogan.jpg" />
+      <div class="rithg">
+        <p>
+          欢迎来到酒仙网！
+          <a href="#">免费注册</a>
+        </p>
+        <select>
+          <option selected="selected">帮助中心</option>
+          <option>配送说明</option>
+          <option>支付方式</option>
+          <option>售后服务</option>
+          <option>企业客户</option>
+        </select>
+      </div>
+    </div>
+    <div class="centen">
+      <div class="content">
+        <a href="#" class="picFoucs"></a>
+        <div class="content-right">
+          <div class="loginCon">
+            <div class="loginTit">
+              <a href="#" class="active">账号登录</a>
+              <span>|</span>
+              <a href="#">手机动态密码登录</a>
+            </div>
+            <div class="account">
+              <div class="user">
+                <span class="iconfont">
+                  <i class="icon-yonghu-tianchong"></i>
+                </span>
+                <input
+                  type="text"
+                  class="userName"
+                  placeholder="用户名/手机号/邮箱"
+                />
+                <div>请输入用户名/邮箱/手机号</div>
+              </div>
+              <div class="user">
+                <span class="iconfont"><i class="icon-mima"></i></span>
+                <input type="password" class="password" placeholder="密码" />
+                <div>请输入密码</div>
+              </div>
+              <div class="user">
+                <span class="iconfont"><i class="icon-verify-fill"></i></span>
+                <input type="text" class="Verification" placeholder="验证码" />
+                <div class="yanz">请输入验证码</div>
+                <p class="code"></p>
+              </div>
+            </div>
+            <div class="dynamic">
+              <div class="user">
+                <span><i class="iconfont icon-yonghu-tianchong"></i></span>
+                <input type="text" class="userName" placeholder="手机号" />
+                <div>请输入手机号</div>
+              </div>
+              <div class="user">
+                <span class="iconfont"><i class="icon-verify-fill"></i></span>
+                <input type="text" class="Verification" placeholder="验证码" />
+                <div class="yanz">请输入验证码</div>
+                <p class="code"></p>
+              </div>
+              <div class="user">
+                <span class="iconfont"><i class="icon-shouji"></i></span>
+                <input type="text" class="phone" />
+              </div>
+            </div>
+            <button class="btn" disabled="disabled">登录</button>
+            <span class="bottom"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../layui/css/layui.css" />
+    <link rel="stylesheet" href="../css/cart.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-top">
+        <div class="layui-container">
+          <div class="layui-row header-row">
+            <div class="layui-col-lg3 header-lg3">
+              <p>
+                欢迎来酒仙网！
+                <a href="./login.html">请登录</a>
+                <a href="./registered.html">免费注册</a>
+              </p>
+            </div>
+            <div class="layui-col-lg9 header-lg9">
+              <div class="select iconfont">
+                <a href="">我的酒仙</a>
+                <i class="icon-xiala"></i>
+                <div class="option">
+                  <a href="">我的订单</a>
+                  <a href="">物流跟踪</a>
+                  <a href="">我的优惠券</a>
+                </div>
+              </div>
+              <div class="cart">
+                <a href="">CEO邮箱</a>
+                <a href="" class="iconfont inf icon-gouwuche">
+                  购物车
+                  <span></span>
+                  件
+                </a>
+                <a href="">CLUB会员</a>
+              </div>
+              <div class="box">
+                <a>招商入驻</a>
+                <a>手机逛酒仙</a>
+              </div>
+
+              <a href="javascript:;">解决方案</a>
+
+              <div class="select iconfont">
+                <a href="">客户服务</a>
+                <i class="icon-xiala"></i>
+                <div class="option">
+                  <a href="">常见问题</a>
+                  <a href="">配送说明</a>
+                  <a href="">售后服务</a>
+                </div>
+              </div>
+              <p>
+                客户热线:
+                <span>400-617-9999</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="search">
+        <img src="../images/left.jpg" alt="" />
+        <img src="../images/jx.gif" alt="" />
+        <div class="search-txt">
+          <div class="searchHome">
+            <input type="text" />
+            <a href="" class="layui-btn search-btn">搜索</a>
+          </div>
+          <p>
+            <a href="">董酒</a>
+            <a href="">五粮液</a>
+            <a href="">茅台</a>
+            <a href="">酒鬼</a>
+            <a href="">拉菲</a>
+            <a href="">郎酒</a>
+            <a href="">黄尾袋鼠</a>
+            <a href="">水井坊</a>
+            <a href="">泸州老窖</a>
+            <a href="">奔富</a>
+          </p>
+        </div>
+        <div class="headerProtect">
+          <a href=""></a>
+          <a href=""></a>
+          <a href=""></a>
+        </div>
+      </div>
+      <div class="bottom">
+        <ul class="layui-nav nav-ul" lay-filter="" lay-allowClose="true">
+          <li class="layui-nav-item ification">
+            <h2>全部商品分类</h2>
+          </li>
+          <li class="layui-nav-item"><a href="">首页</a></li>
+          <li class="layui-nav-item"><a href="">CLUB</a></li>
+          <li class="layui-nav-item"><a>自营甄选</a></li>
+          <li class="layui-nav-item"><a href="">爆品腰斩日</a></li>
+          <li class="layui-nav-item"><a href="">葡萄酒馆</a></li>
+          <li class="layui-nav-item"><a href="">周末惠</a></li>
+          <li class="layui-nav-item"><a href="">洋酒馆</a></li>
+          <li class="layui-nav-item"><a>新品</a></li>
+          <li class="layui-nav-item"><a href="">门店加盟</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="tab">
+      <div class="layui-btn-group demoTable">
+        <button class="layui-btn" data-type="getCheckData">
+          获取选中行数据
+        </button>
+        <button class="layui-btn" data-type="getCheckLength">
+          获取选中数目
+        </button>
+        <button class="layui-btn" data-type="isAll">验证是否全选</button>
+      </div>
+      <table
+        class="layui-table"
+        lay-data="{width: 892, height:330, url:'', page:true, id:'idTest'}"
+        lay-filter="demo"
+      >
+        <thead>
+          <tr>
+            <th lay-data="{type:'checkbox', }"></th>
+            <th lay-data="{field:'select',align:'center'}">全选</th>
+            <th lay-data="{field:'information', align:'center' }">商品信息</th>
+            <th lay-data="{field:'price',align:'center'}">单价</th>
+            <th lay-data="{field:'sum', align:'center'}">数量</th>
+            <th lay-data="{field:'subtotal',align:'center'}">小计</th>
+            <th lay-data="{field:'operating',align:'center'}">操作</th>
+          </tr>
+        </thead>
+      </table>
+      <script type="text/html" id="barDemo">
+        <a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="detail">查看</a>
+        <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+        <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+      </script>
+    </div>
+    <div class="footer">
+      <div class="footerTopBox">
+        <div class="footerTop">
+          <div class="footerContact">
+            <i class="publicIcon"></i>
+            <b>400-617-9999</b>
+            <span>客服热线</span>
+            <span>9:00-23:00</span>
+            <span>贴心服务</span>
+          </div>
+          <div class="footerTopRight">
+            <div class="ftRight-tit">优惠促销早知道</div>
+            <div class="ftRight-form">
+              <input
+                id="subscribe_email"
+                type="text"
+                placeholder="请输入您的邮箱地址"
+              />
+              <i class="publicIcon" id="subscribe_but"></i>
+            </div>
+          </div>
+        </div>
+        <div class="footerServices">
+          <ul class="clearfix">
+            <li class="servicesItme01">
+              <h3>
+                <i class="publicIcon"></i>
+                <span>新手入门</span>
+              </h3>
+              <p>
+                <a href="">购物保障</a>
+              </p>
+              <p>
+                <a href="">服务协议</a>
+              </p>
+              <p>
+                <a href="">发票说明</a>
+              </p>
+            </li>
+            <li class="servicesItme02">
+              <h3>
+                <i class="publicIcon"></i>
+                <span>常见问题</span>
+              </h3>
+              <p>
+                <a href="">红包使用</a>
+              </p>
+              <p>
+                <a href="http://help.jiuxian.com/view-2-115.htm">返现使用</a>
+              </p>
+              <p>
+                <a href="http://help.jiuxian.com/view-2-116.htm">兑换码</a>
+              </p>
+            </li>
+            <li class="servicesItme03">
+              <h3>
+                <i class="publicIcon"></i>
+                <span>配送说明</span>
+              </h3>
+              <p>
+                <a href="http://help.jiuxian.com/view-3-118.htm#delivery_02">
+                  配送时间
+                </a>
+              </p>
+              <p>
+                <a href="http://help.jiuxian.com/view-3-119.htm#delivery_03">
+                  配送费用
+                </a>
+              </p>
+              <p>
+                <a href="http://help.jiuxian.com/view-3-117.htm#delivery_01">
+                  配送范围
+                </a>
+              </p>
+            </li>
+            <li class="servicesItme04">
+              <h3>
+                <i class="publicIcon"></i>
+                <span>支付方式</span>
+              </h3>
+              <p>
+                <a href="http://help.jiuxian.com/view-4-120.htm#pay_1">
+                  货到付款
+                </a>
+              </p>
+              <p>
+                <a href="http://help.jiuxian.com/view-4-121.htm#pay_2">
+                  在线支付
+                </a>
+              </p>
+              <p>
+                <a href="http://help.jiuxian.com/view-4-122.htm#pay_3">
+                  线下支付
+                </a>
+              </p>
+            </li>
+            <li class="servicesItme05">
+              <h3>
+                <i class="publicIcon"></i>
+                <span>售后服务</span>
+              </h3>
+              <p>
+                <a href="http://help.jiuxian.com/view-5-123.htm#bz_1">
+                  品质保证
+                </a>
+              </p>
+              <p>
+                <a href="http://help.jiuxian.com/view-5-124.htm#bz_2">
+                  退换货政策
+                </a>
+              </p>
+              <p>
+                <a href="http://help.jiuxian.com/view-5-125.htm#bz_3">
+                  退换货流程
+                </a>
+              </p>
+            </li>
+            <li class="servicesItme06">
+              <h3>
+                <i class="publicIcon"></i>
+                <span>特色服务</span>
+              </h3>
+              <p>
+                <a href="http://jifen.jiuxian.com/club_index.htm">会员俱乐部</a>
+              </p>
+              <p>
+                <a href="http://member.jiuxian.com/company.htm">企业客户</a>
+              </p>
+            </li>
+            <li class="jxMicroblogging">
+              <div class="item sinaMb">
+                <div class="sinaMbCom clearfix">
+                  <a href="http://weibo.com/jiuxianwang?sudaref=www.so.com">
+                    <i class="publicIcon"></i>
+                  </a>
+                  <a href="http://weibo.com/jiuxianwang?sudaref=www.so.com">
+                    酒仙新浪微博
+                  </a>
+                </div>
+              </div>
+              <div class="item weixin">
+                <div class="weixinCon clearfix" flag="hide">
+                  <i class="publicIcon"></i>
+                  <a>酒仙微信</a>
+                </div>
+                <div class="weixinCode" id="weixinCode">
+                  <img
+                    src="http://misc.jiuxian.com/img/newIndexImg/weixin-code.jpg"
+                  />
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footerBotBox">
+        <div class="footerBot clearfix">
+          <div class="footerBotLeft">
+            <p class="footerInfo">
+              <a href="http://help.jiuxian.com/view-0-105.htm">
+                公司简介
+                <i></i>
+              </a>
+              <a href="http://help.jiuxian.com/view-0-106.htm">
+                管理团队
+                <i></i>
+              </a>
+              <a href="http://help.jiuxian.com/view-0-109.htm">
+                媒体报道
+                <i></i>
+              </a>
+              <a href="http://help.jiuxian.com/view-0-110.htm">
+                联系我们
+                <i></i>
+              </a>
+              <a href="http://www.jiuxian.com/links.htm" target="_blank">
+                友情链接
+                <i></i>
+              </a>
+              <a href="http://www.jiuxian.com/sitemap.htm" target="_blank">
+                网站地图
+                <i></i>
+              </a>
+              <a href="http://www.jiuxian.com/allbrands.htm" target="_blank">
+                品牌大全
+                <i></i>
+              </a>
+              <a href="http://www.jiuxian.com/zngj.html" target="_blank">
+                中酿国际
+                <i></i>
+              </a>
+            </p>
+            <p class="copyright">
+              酒仙网络科技股份有限公司&nbsp;&nbsp;©&nbsp;&nbsp;酒仙网&nbsp;&nbsp;&nbsp;2011&nbsp;&nbsp;jiuxian.com&nbsp;&nbsp;All&nbsp;&nbsp;&nbsp;Rights&nbsp;Reserved&nbsp;&nbsp;&nbsp;
+              <a href="http://www.beian.miit.gov.cn">
+                京ICP备17043395号
+              </a>
+              &nbsp;&nbsp;&nbsp;京公网安备11030102000060
+            </p>
+
+            <p class="friendLink">
+              <span class="linkWidth">
+                <a href="http://www.jiuxian.com" target="_blank">酒仙网白酒</a>
+                |
+                <a href="http://wine.jiuxian.com/" target="_blank">
+                  酒仙网葡萄酒
+                </a>
+                |
+                <a href="http://help.jiuxian.com/view-6-298.htm">
+                  开放平台招商
+                </a>
+                |
+                <a href="http://tuan.jiuxian.com/" target="_blank">
+                  酒仙网团购
+                </a>
+                |
+              </span>
+              <a href="http://www.jiuxian.com/links.htm">更多</a>
+            </p>
+            <p class="footerAddr" style="color: #999; line-height: 22px;">
+              <span>
+                统一社会信用代码&nbsp;&nbsp;91110302306646672B&nbsp;&nbsp;&nbsp;食品流通许可证编号&nbsp;&nbsp;JY11131010328793&nbsp;&nbsp;&nbsp;京食药网食备201910019&nbsp;&nbsp;&nbsp;
+              </span>
+            </p>
+            <p
+              class="footerAddr"
+              style="color: #999; line-height: 22px; padding-bottom: 7px;"
+            >
+              <span>地址：北京市北京经济技术开发区经海五路58号院8幢4层</span>
+            </p>
+            <p class="copybot">
+              <span
+                id="kx_verify"
+                style="float: left; padding-right: 6px;"
+              ></span>
+              <a href="http://img01.jiuxian.com/img1/nsy/icp01.jpg">
+                <img
+                  src="http://misc.jiuxian.com/img/newIndexImg/copyBot03.jpg"
+                  width="128"
+                  height="47"
+                />
+              </a>
+            </p>
+            <p class="footerPro" style="padding: 11px 0 6px; color: #cc0001;">
+              购买前请确认达到法定饮酒年龄！酒仙网不销售任何含酒精产品给18岁以下人士！
+            </p>
+          </div>
+          <div class="footerBotCode">
+            <div class="jxPho-code">
+              <p class="codePic">
+                <img
+                  alt="手机酒仙网"
+                  src="http://misc.jiuxian.com/img/newIndexImg/jxPho-code.jpg"
+                  width="80"
+                  height="80"
+                />
+              </p>
+              <p class="codeText">手机酒仙网</p>
+            </div>
+            <div class="jkd-code">
+              <p class="codePic">
+                <img
+                  alt="微信公众号"
+                  src="http://misc.jiuxian.com/img/newIndexImg/jx-wxgzh.png"
+                  width="80"
+                  height="80"
+                />
+              </p>
+              <p class="codeText">微信公众号</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../layui/layui.js" charset="utf-8"></script>
+    <script src="../js/cart.js"></script>
+  </body>
+</html>

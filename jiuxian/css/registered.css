@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  margin: 0 auto;
+  width: 100%;
+  font-size: 12px;
+}
+a {
+  text-decoration: none;
+  color: #999;
+}
+.top {
+  width: 1000px;
+  height: 88px;
+  margin: 0 auto;
+}
+.top img {
+  float: left;
+  margin-top: 10px;
+}
+.rithg {
+  float: right;
+  margin-top: 48px;
+  height: 88px;
+}
+.rithg p {
+  display: inline;
+}
+.rithg p a {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.centen {
+  background: no-repeat center top url(../images/background.jpg);
+  width: 100%;
+  height: 650px;
+}
+.content {
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+}
+.content .picFoucs {
+  display: block;
+  width: 650px;
+  height: 600px;
+  float: left;
+}
+.content-right {
+  width: 350px;
+  height: 400px;
+  float: right;
+  background-color: #fff;
+  margin-top: 50px;
+}
+.loginCon {
+  margin-left: 40px;
+  width: 270px;
+}
+.loginTit {
+  height: 40px;
+  margin: 14px 0 19px;
+  border-bottom: 1px solid #e9e9e9;
+  color: #999;
+}
+.loginTit span {
+  float: left;
+  line-height: 40px;
+  padding: 0 18px;
+}
+.loginTit a {
+  display: block;
+  float: left;
+  height: 40px;
+  font-size: 16px;
+  line-height: 40px;
+}
+.active {
+  color: #e4393c;
+}
+.loginTit a:hover {
+  color: #0066cc;
+  text-decoration: underline;
+}
+.user {
+  height: 42px;
+  border: 1px solid #cccccc;
+  margin-top: 14px;
+  margin-bottom: 20px;
+}
+.user span {
+  background-color: #f3f3f3;
+  display: inline-block;
+  width: 43px;
+  height: 42px;
+  font-size: 20px;
+  color: #cccccc;
+  border-right: 1px solid #cccccc;
+}
+.user span i {
+  display: inline-block;
+  margin: 10px 10px 0 11px;
+  font-style: normal;
+}
+.user div {
+  display: none;
+  background-color: #ed787f;
+  color: #fff;
+  float: right;
+}
+.user .yanz {
+  position: absolute;
+  right: 172px;
+}
+.user p {
+  width: 80px;
+  height: 38px;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  color: #0066cc;
+  cursor: pointer;
+  float: right;
+}
+.userName {
+  height: 30px;
+  border: none;
+  width: 80%;
+  outline: none;
+  color: #cccccc;
+}
+.password {
+  height: 30px;
+  border: none;
+  width: 80%;
+  outline: none;
+  color: #cccccc;
+}
+.phone {
+  height: 30px;
+  color: #cccccc;
+  border: none;
+  width: 80%;
+  outline: none;
+}
+.Verification {
+  height: 30px;
+  border: none;
+  width: 40%;
+  outline: none;
+  color: #cccccc;
+}
+.user .mistakeTip {
+  display: block;
+}
+.btn {
+  width: 100%;
+  background-color: rgb(180, 2, 2);
+  height: 39px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.bottom {
+  border: 1px dashed #cccccc;
+  width: 100%;
+  display: block;
+  margin-top: 30px;
+}
+.account {
+  display: block;
+}
+.dynamic {
+  display: none;
+}

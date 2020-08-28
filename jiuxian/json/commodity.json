@@ -1,0 +1,544 @@
+{
+  "data": [
+    {
+      "count": "339",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒鬼酒",
+      "word": "酒鬼酒",
+      "productId": 79907,
+      "promoPrice": "168.00",
+      "imgurl": "../images/commodity1.jpg"
+    },
+    {
+      "count": "339",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒鬼",
+      "word": "酒鬼",
+      "productId": 70856,
+      "promoPrice": "169.00",
+      "imgurl": "../images/commodity2.jpg"
+    },
+    {
+      "count": "169",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒杯",
+      "word": "酒杯",
+      "productId": 15037,
+      "promoPrice": "59.00",
+      "imgurl": "../images/commodity3.jpg"
+    },
+    {
+      "count": "1292",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒版",
+      "word": "酒版",
+      "productId": 60020,
+      "promoPrice": "249.00",
+      "imgurl": "../images/commodity4.jpg"
+    },
+    {
+      "count": "2",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒之头",
+      "word": "酒之头",
+      "productId": 87421,
+      "promoPrice": "109.00",
+      "imgurl": "../images/commodity5.jpg"
+    },
+    {
+      "count": "831",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒中",
+      "word": "酒中",
+      "productId": 84256,
+      "promoPrice": "79.00",
+      "imgurl": "../images/commodity6.jpg"
+    },
+    {
+      "count": "26",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒架",
+      "word": "酒架",
+      "productId": 57697,
+      "promoPrice": "568.00",
+      "imgurl": "../images/commodity7.jpg"
+    },
+    {
+      "count": "88",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒具套装",
+      "word": "酒具套装",
+      "productId": 52323,
+      "promoPrice": "69.00",
+      "imgurl": "../images/commodity8.jpg"
+    },
+    {
+      "count": "907",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒仙",
+      "word": "酒仙",
+      "productId": 1543,
+      "promoPrice": "79.00",
+      "imgurl": "../images/commodity9.jpg"
+    },
+    {
+      "count": "11",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒鬼内参",
+      "word": "酒鬼内参",
+      "productId": 123986,
+      "promoPrice": "69.00",
+      "imgurl": "../images/commodity10.jpg"
+    },
+    {
+      "count": "284",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲",
+      "word": "拉菲",
+      "productId": 83967,
+      "promoPrice": "369.00",
+      "imgurl": "../images/commodity11.jpg"
+    },
+    {
+      "count": "47",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲传奇",
+      "word": "拉菲传奇",
+      "productId": 28581,
+      "promoPrice": "199.00",
+      "imgurl": "../images/commodity12.jpg"
+    },
+    {
+      "count": "12",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲传说",
+      "word": "拉菲传说",
+      "productId": 30332,
+      "promoPrice": "539.00",
+      "imgurl": "../images/commodity13.jpg"
+    },
+    {
+      "count": "281",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲红酒",
+      "word": "拉菲红酒",
+      "productId": 80825,
+      "promoPrice": "79.00",
+      "imgurl": "../images/commodity14.jpg"
+    },
+    {
+      "count": "24",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲古堡",
+      "word": "拉菲古堡",
+      "productId": 14440,
+      "promoPrice": "89.00",
+      "imgurl": "../images/commodity15.jpg"
+    },
+    {
+      "count": "27",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲酒庄",
+      "word": "拉菲酒庄",
+      "productId": 48711,
+      "promoPrice": "39.90",
+      "imgurl": "../images/commodity16.jpg"
+    },
+    {
+      "count": "37",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲珍藏",
+      "word": "拉菲珍藏",
+      "productId": 94058,
+      "promoPrice": "238.00",
+      "imgurl": "../images/commodity17.jpg"
+    },
+    {
+      "count": "6",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲庄园",
+      "word": "拉菲庄园",
+      "productId": 14458,
+      "promoPrice": "99.00",
+      "imgurl": "../images/commodity18.jpg"
+    },
+    {
+      "count": "2",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲1982",
+      "word": "拉菲1982",
+      "productId": 25907,
+      "promoPrice": "99.00",
+      "imgurl": "../images/commodity19.jpg"
+    },
+    {
+      "count": "6",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲副牌",
+      "word": "拉菲副牌",
+      "productId": 50598,
+      "promoPrice": "389.00",
+      "imgurl": "../images/commodity20.jpg"
+    },
+    {
+      "count": "339",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒鬼酒",
+      "word": "酒鬼酒",
+      "productId": 79907,
+      "promoPrice": "168.00",
+      "imgurl": "../images/commodity1.jpg"
+    },
+    {
+      "count": "339",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒鬼",
+      "word": "酒鬼",
+      "productId": 70856,
+      "promoPrice": "169.00",
+      "imgurl": "../images/commodity2.jpg"
+    },
+    {
+      "count": "169",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒杯",
+      "word": "酒杯",
+      "productId": 15037,
+      "promoPrice": "59.00",
+      "imgurl": "../images/commodity3.jpg"
+    },
+    {
+      "count": "1292",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒版",
+      "word": "酒版",
+      "productId": 60020,
+      "promoPrice": "249.00",
+      "imgurl": "../images/commodity4.jpg"
+    },
+    {
+      "count": "2",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒之头",
+      "word": "酒之头",
+      "productId": 87421,
+      "promoPrice": "109.00",
+      "imgurl": "../images/commodity5.jpg"
+    },
+    {
+      "count": "831",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒中",
+      "word": "酒中",
+      "productId": 84256,
+      "promoPrice": "79.00",
+      "imgurl": "../images/commodity6.jpg"
+    },
+    {
+      "count": "26",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒架",
+      "word": "酒架",
+      "productId": 57697,
+      "promoPrice": "568.00",
+      "imgurl": "../images/commodity7.jpg"
+    },
+    {
+      "count": "88",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒具套装",
+      "word": "酒具套装",
+      "productId": 52323,
+      "promoPrice": "69.00",
+      "imgurl": "../images/commodity8.jpg"
+    },
+    {
+      "count": "907",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒仙",
+      "word": "酒仙",
+      "productId": 1543,
+      "promoPrice": "79.00",
+      "imgurl": "../images/commodity9.jpg"
+    },
+    {
+      "count": "11",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒鬼内参",
+      "word": "酒鬼内参",
+      "productId": 123986,
+      "promoPrice": "69.00",
+      "imgurl": "../images/commodity10.jpg"
+    },
+    {
+      "count": "284",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲",
+      "word": "拉菲",
+      "productId": 83967,
+      "promoPrice": "369.00",
+      "imgurl": "../images/commodity11.jpg"
+    },
+    {
+      "count": "47",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲传奇",
+      "word": "拉菲传奇",
+      "productId": 28581,
+      "promoPrice": "199.00",
+      "imgurl": "../images/commodity12.jpg"
+    },
+    {
+      "count": "12",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲传说",
+      "word": "拉菲传说",
+      "productId": 30332,
+      "promoPrice": "539.00",
+      "imgurl": "../images/commodity13.jpg"
+    },
+    {
+      "count": "281",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲红酒",
+      "word": "拉菲红酒",
+      "productId": 80825,
+      "promoPrice": "79.00",
+      "imgurl": "../images/commodity14.jpg"
+    },
+    {
+      "count": "24",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲古堡",
+      "word": "拉菲古堡",
+      "productId": 14440,
+      "promoPrice": "89.00",
+      "imgurl": "../images/commodity15.jpg"
+    },
+    {
+      "count": "27",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲酒庄",
+      "word": "拉菲酒庄",
+      "productId": 48711,
+      "promoPrice": "39.90",
+      "imgurl": "../images/commodity16.jpg"
+    },
+    {
+      "count": "37",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲珍藏",
+      "word": "拉菲珍藏",
+      "productId": 94058,
+      "promoPrice": "238.00",
+      "imgurl": "../images/commodity17.jpg"
+    },
+    {
+      "count": "6",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲庄园",
+      "word": "拉菲庄园",
+      "productId": 14458,
+      "promoPrice": "99.00",
+      "imgurl": "../images/commodity18.jpg"
+    },
+    {
+      "count": "2",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲1982",
+      "word": "拉菲1982",
+      "productId": 25907,
+      "promoPrice": "99.00",
+      "imgurl": "../images/commodity19.jpg"
+    },
+    {
+      "count": "6",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲副牌",
+      "word": "拉菲副牌",
+      "productId": 50598,
+      "promoPrice": "389.00",
+      "imgurl": "../images/commodity20.jpg"
+    },
+    {
+      "count": "339",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒鬼酒",
+      "word": "酒鬼酒",
+      "productId": 79907,
+      "promoPrice": "168.00",
+      "imgurl": "../images/commodity1.jpg"
+    },
+    {
+      "count": "339",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒鬼",
+      "word": "酒鬼",
+      "productId": 70856,
+      "promoPrice": "169.00",
+      "imgurl": "../images/commodity2.jpg"
+    },
+    {
+      "count": "169",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒杯",
+      "word": "酒杯",
+      "productId": 15037,
+      "promoPrice": "59.00",
+      "imgurl": "../images/commodity3.jpg"
+    },
+    {
+      "count": "1292",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒版",
+      "word": "酒版",
+      "productId": 60020,
+      "promoPrice": "249.00",
+      "imgurl": "../images/commodity4.jpg"
+    },
+    {
+      "count": "2",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒之头",
+      "word": "酒之头",
+      "productId": 87421,
+      "promoPrice": "109.00",
+      "imgurl": "../images/commodity5.jpg"
+    },
+    {
+      "count": "831",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒中",
+      "word": "酒中",
+      "productId": 84256,
+      "promoPrice": "79.00",
+      "imgurl": "../images/commodity6.jpg"
+    },
+    {
+      "count": "26",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒架",
+      "word": "酒架",
+      "productId": 57697,
+      "promoPrice": "568.00",
+      "imgurl": "../images/commodity7.jpg"
+    },
+    {
+      "count": "88",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒具套装",
+      "word": "酒具套装",
+      "productId": 52323,
+      "promoPrice": "69.00",
+      "imgurl": "../images/commodity8.jpg"
+    },
+    {
+      "count": "907",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒仙",
+      "word": "酒仙",
+      "productId": 1543,
+      "promoPrice": "79.00",
+      "imgurl": "../images/commodity9.jpg"
+    },
+    {
+      "count": "11",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=酒鬼内参",
+      "word": "酒鬼内参",
+      "productId": 123986,
+      "promoPrice": "69.00",
+      "imgurl": "../images/commodity10.jpg"
+    },
+    {
+      "count": "284",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲",
+      "word": "拉菲",
+      "productId": 83967,
+      "promoPrice": "369.00",
+      "imgurl": "../images/commodity11.jpg"
+    },
+    {
+      "count": "47",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲传奇",
+      "word": "拉菲传奇",
+      "productId": 28581,
+      "promoPrice": "199.00",
+      "imgurl": "../images/commodity12.jpg"
+    },
+    {
+      "count": "12",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲传说",
+      "word": "拉菲传说",
+      "productId": 30332,
+      "promoPrice": "539.00",
+      "imgurl": "../images/commodity13.jpg"
+    },
+    {
+      "count": "281",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲红酒",
+      "word": "拉菲红酒",
+      "productId": 80825,
+      "promoPrice": "79.00",
+      "imgurl": "../images/commodity14.jpg"
+    },
+    {
+      "count": "24",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲古堡",
+      "word": "拉菲古堡",
+      "productId": 14440,
+      "promoPrice": "89.00",
+      "imgurl": "../images/commodity15.jpg"
+    },
+    {
+      "count": "27",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲酒庄",
+      "word": "拉菲酒庄",
+      "productId": 48711,
+      "promoPrice": "39.90",
+      "imgurl": "../images/commodity16.jpg"
+    },
+    {
+      "count": "37",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲珍藏",
+      "word": "拉菲珍藏",
+      "productId": 94058,
+      "promoPrice": "238.00",
+      "imgurl": "../images/commodity17.jpg"
+    },
+    {
+      "count": "6",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲庄园",
+      "word": "拉菲庄园",
+      "productId": 14458,
+      "promoPrice": "99.00",
+      "imgurl": "../images/commodity18.jpg"
+    },
+    {
+      "count": "2",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲1982",
+      "word": "拉菲1982",
+      "productId": 25907,
+      "promoPrice": "99.00",
+      "imgurl": "../images/commodity19.jpg"
+    },
+    {
+      "count": "6",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=拉菲副牌",
+      "word": "拉菲副牌",
+      "productId": 50598,
+      "promoPrice": "389.00",
+      "imgurl": "../images/commodity20.jpg"
+    }
+  ]
+}

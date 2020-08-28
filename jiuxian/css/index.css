@@ -1,0 +1,515 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  background-color: #fff;
+}
+
+body {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  font-size: 12px;
+  color: #c0c0c0;
+  margin: 0;
+}
+.header .header-top {
+  background: #f2f2f2;
+}
+.header .header-top .header-row {
+  min-width: 1200px;
+  height: 26px;
+  padding-top: 5px;
+}
+.header .header-top .header-row .header-lg9 p {
+  display: inline-block;
+}
+.header .header-top .header-row .header-lg9 p span {
+  color: #d43434;
+}
+.header .header-top .header-row .select {
+  width: 74px;
+  padding: 0 10px 0;
+  padding-top: 0;
+  float: left;
+  text-align: center;
+}
+.header .header-top .header-row .select:hover .option {
+  display: block;
+  background: #fff;
+}
+.header .header-top .header-row .select .option {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 80px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 80px;
+  background: #fff;
+  line-height: 20px;
+  display: none;
+}
+.header .header-top .header-row .cart {
+  display: inline-block;
+  float: left;
+}
+.header .header-top .header-row .cart a {
+  margin-left: 10px;
+  color: #d43434;
+}
+.header .header-top .header-row .box {
+  float: left;
+}
+.header .header-top .header-row a {
+  color: #c0c0c0;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 10px;
+}
+.header .header-top .header-row a:hover {
+  color: #d43434;
+  text-decoration: underline;
+}
+.header .header-top .header-row i {
+  font-size: 12px;
+}
+.header .search {
+  width: 1200px;
+  height: 125px;
+  margin: 0 auto;
+}
+.header .search img {
+  margin-right: 10px;
+  float: left;
+  margin-top: 30px;
+}
+.header .search .search-txt {
+  width: 540px;
+  height: 60px;
+  float: left;
+  margin: 32px 0 0 20px;
+}
+.header .search .search-txt .searchHome {
+  border: 2px solid #cc0000;
+  width: 540px;
+  height: 37px;
+  background-color: #cc0000;
+  float: left;
+}
+.header .search .search-txt .searchHome input {
+  width: 450px;
+  height: 32px;
+}
+.header .search .search-txt .searchHome .search-btn {
+  width: 80px;
+  height: 32px;
+  text-align: center;
+  background: #cc0000;
+}
+.header .search .search-txt p a {
+  margin: 5px;
+}
+.header .search .headerProtect {
+  width: 300px;
+  height: 64px;
+  float: right;
+  margin-top: 33px;
+}
+.header .search .headerProtect a:nth-child(1) {
+  display: inline-block;
+  width: 45px;
+  height: 43px;
+  background: url(../images/download.png) no-repeat;
+  background-position: 0px -22px;
+  margin-right: 20px;
+}
+.header .search .headerProtect a:nth-child(2) {
+  display: inline-block;
+  width: 45px;
+  height: 43px;
+  background: url(../images/download.png) no-repeat;
+  background-position: -47px -22px;
+  margin-right: 20px;
+}
+.header .search .headerProtect a:nth-child(3) {
+  display: inline-block;
+  width: 45px;
+  height: 43px;
+  background: url(../images/download.png) no-repeat;
+  background-position: -94px -22px;
+  margin-right: 20px;
+}
+.header .bottom {
+  float: left;
+  width: 100%;
+  background-color: #990000;
+}
+.header .bottom .nav-ul {
+  margin: 0 auto;
+  width: 1200px;
+  height: 34px;
+  background-color: #990000;
+  position: relative;
+}
+.header .bottom .nav-ul .clearfix {
+  position: absolute;
+  width: 190px;
+  height: 470px;
+  top: 34px;
+  left: 20px;
+  background-color: #fff;
+}
+.header .bottom .nav-ul .clearfix dd {
+  width: 190px;
+  height: 73px;
+  position: relative;
+}
+.header .bottom .nav-ul .clearfix dd h3 {
+  color: #333333;
+  height: 32px;
+  width: 163px;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 100;
+}
+.header .bottom .nav-ul .clearfix dd ul {
+  margin: 0 auto;
+}
+.header .bottom .nav-ul .clearfix dd ul li {
+  margin: 0 auto;
+  float: left;
+}
+.header .bottom .nav-ul .clearfix dd ul li a {
+  margin: 0 3px;
+  padding: 0 4px;
+  font-size: 12px;
+  width: 36px;
+  height: 24px;
+  line-height: 24px;
+  white-space: normal;
+  cursor: pointer;
+}
+.header .bottom .nav-ul .clearfix dd ul li a:hover {
+  background-color: #fff;
+}
+.header .bottom .nav-ul .clearfix dd a {
+  color: #999999;
+}
+.header .bottom .nav-ul .secondary {
+  display: none;
+  width: 615px;
+  height: 470px;
+  position: absolute;
+  background-color: #fff;
+  left: 190px;
+  float: left;
+  z-index: 99;
+}
+.header .bottom .nav-ul .secondary ul {
+  background-color: #fff;
+}
+.header .bottom .nav-ul .secondary ul li {
+  overflow: hidden;
+  color: #333333;
+}
+.header .bottom .nav-ul .secondary ul li h4 {
+  background-color: #f1f1f1;
+  width: 60px;
+  float: left;
+  padding: 10px 10px 10px 20px;
+  line-height: 22px;
+  text-align: right;
+  border-top: 1px solid #999;
+  font-weight: 100;
+  font-size: 12px;
+}
+.header .bottom .nav-ul .secondary ul li p {
+  float: left;
+  width: 495px;
+  background-color: #fff;
+  margin: 0 0 0 -1px;
+  line-height: 22px;
+  max-height: 176px;
+  overflow: hidden;
+}
+.header .bottom .nav-ul .secondary ul li p a {
+  color: #666666;
+  padding: 0 8px;
+  font-size: 12px;
+}
+.header .bottom .nav-ul .secondary ul li p a:hover {
+  background-color: #fff;
+}
+.header .bottom .nav-ul .layui-nav-bar {
+  display: none;
+}
+.header .bottom .nav-ul li {
+  line-height: 34px;
+}
+.header .bottom .nav-ul li h2 {
+  width: 190px;
+  text-align: center;
+  background-color: #ce171f;
+}
+.header .bottom .nav-ul li a {
+  padding: 0 22px;
+  color: #fff;
+}
+.header .bottom .nav-ul li a:hover {
+  background-color: #ce171f;
+  border-bottom: none;
+}
+
+.swipt {
+  position: relative;
+  float: left;
+  z-index: -999;
+}
+.swipt .img div {
+  position: relative;
+  margin: 0 auto;
+}
+.swipt .img div img {
+  position: absolute;
+  left: -305px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.swipt .liqueur {
+  position: absolute;
+  width: 190px;
+  height: 470px;
+  top: 0;
+  right: 6px;
+}
+
+.crazySale {
+  float: left;
+  padding-left: 50px;
+}
+.crazySale .indexTabBox {
+  background-color: #fff;
+  width: 1200px;
+  min-height: 500px;
+}
+.crazySale .indexTabBox ul {
+  background-color: #f9f9f9;
+}
+.crazySale .indexTabBox ul li {
+  width: 183px;
+  color: #666;
+  border: 1px solid #ececec;
+}
+.crazySale .indexTabBox ul .thisli {
+  background-color: #fff;
+}
+.crazySale .indexTabBox .box .ubox .indexTabCon {
+  display: block;
+}
+.crazySale .indexTabBox .box .ubox .indexTabCon li {
+  border: none;
+  width: 182px;
+  float: left;
+  margin-top: 20px;
+}
+.crazySale .indexTabBox .box .ubox .indexTabCon li img {
+  cursor: pointer;
+}
+.crazySale .indexTabBox .box .ubox .indexTabCon li p {
+  text-align: center;
+  font-size: 12px;
+  height: 18px;
+}
+.crazySale .indexTabBox .box .ubox .indexTabCon li span {
+  color: #cd0100;
+  line-height: 18px;
+  text-align: center;
+}
+
+.footer {
+  margin: 0 auto;
+  width: 100%;
+}
+.footer .footerTopBox {
+  width: 100%;
+  float: left;
+  background: #333333;
+}
+.footer .footerTopBox .footerTop {
+  color: #fff;
+  display: block;
+  width: 1200px;
+  margin: 0 auto;
+  height: 84px;
+  border-bottom: 1px solid red;
+}
+.footer .footerTopBox .footerTop .footerContact {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  padding: 22px 0;
+}
+.footer .footerTopBox .footerTop .footerContact b {
+  font-size: 24px;
+  color: #c00;
+  margin-right: 25px;
+}
+.footer .footerTopBox .footerTop .footerTopRight {
+  float: right;
+  height: 32px;
+  padding: 26px 0;
+  display: block;
+}
+.footer .footerTopBox .footerTop .footerTopRight .ftRight-tit {
+  float: left;
+  line-height: 32px;
+  margin-right: 10px;
+  font-size: 12px;
+}
+.footer .footerTopBox .footerTop .footerTopRight .ftRight-form {
+  float: left;
+  width: 240px;
+  height: 30px;
+  border: 1px solid #494949;
+}
+.footer .footerTopBox .footerTop .footerTopRight .ftRight-form input {
+  width: 190px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 6px;
+  background: 0;
+  border: 0;
+  float: left;
+  color: #fff;
+  outline: 0;
+}
+.footer .footerTopBox .footerServices {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 30px 0 60px;
+  height: 95px;
+}
+.footer .footerTopBox .footerServices ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.footer .footerTopBox .footerServices ul li {
+  float: left;
+  width: 158px;
+  display: inline;
+  margin-right: 15px;
+  color: #ccc;
+}
+.footer .footerTopBox .footerServices ul li h3 {
+  line-height: 26px;
+  margin: 5px 0;
+}
+.footer .footerTopBox .footerServices ul li p a {
+  color: #ccc;
+  line-height: 26px;
+}
+.footer .footerTopBox .footerServices ul clearfix::after {
+  clear: both;
+  display: block;
+  content: '...';
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+}
+.footer .footerTopBox .footerServices ul .jxMicroblogging {
+  float: right;
+  width: 130px;
+}
+.footer .footerTopBox .footerServices ul .jxMicroblogging a {
+  color: #ccc;
+  line-height: 28px;
+  padding: 5px 0 13px;
+}
+.footer .footerBotBox {
+  padding: 20px 0 40px;
+  float: left;
+  width: 100%;
+}
+.footer .footerBotBox .footerBot {
+  width: 1200px;
+  height: 200px;
+  margin: 0 auto;
+}
+.footer .footerBotBox .footerBot .footerBotLeft {
+  float: left;
+  width: 760px;
+  overflow: hidden;
+}
+.footer .footerBotBox .footerBot .footerBotLeft .footerInfo {
+  height: 16px;
+  padding: 4px 0;
+  overflow: hidden;
+  position: relative;
+  left: -8px;
+  margin-left: 0;
+}
+.footer .footerBotBox .footerBot .footerBotLeft .footerInfo a {
+  display: inline-table;
+  height: 16px;
+  line-height: 16px;
+  padding: 0 8px;
+  overflow: hidden;
+  position: relative;
+  color: #666;
+  font-size: 12px;
+}
+.footer .footerBotBox .footerBot .footerBotLeft .footerInfo a i {
+  width: 1px;
+  height: 12px;
+  background: #999;
+  font-size: 0;
+  position: absolute;
+  left: 0;
+  top: 2px;
+  overflow: hidden;
+  display: block;
+}
+.footer .footerBotBox .footerBot .footerBotLeft p {
+  line-height: 20px;
+  text-align: left;
+  font-size: 12px;
+  color: #666;
+}
+.footer .footerBotBox .footerBot .footerBotLeft .friendLink {
+  padding: 17px 0 3px 0;
+}
+.footer .footerBotBox .footerBot .footerBotLeft .friendLink a {
+  color: #999;
+}
+.footer .footerBotBox .footerBot .footerBotLeft .friendLink a:hover {
+  color: #cc0001;
+  text-decoration: underline;
+}
+.footer .footerBotBox .footerBot .footerBotLeft .friendLink span a {
+  color: #999;
+}
+.footer .footerBotBox .footerBot .footerBotCode {
+  width: 240px;
+  float: left;
+  text-align: center;
+  padding-top: 20px;
+}
+.footer .footerBotBox .footerBot .footerBotCode .jxPho-code {
+  float: left;
+  width: 80px;
+  display: inline;
+  margin-left: 40px;
+}
